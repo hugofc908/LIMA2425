@@ -1,0 +1,131 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
+
+body {
+    background-color: #3aaeb9;
+}
+
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    background-color: lightblue;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b93a6f
+}
+
+
+.contenedor {
+    border: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.25rem;
+    margin: auto;
+    max-width: 75%;
+    padding: 10%;
+}
+
+
+.contenedor {
+    height: 650px;
+}
+
+.hover {
+    transition: 1s ease;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+}
+
+a:hover {
+    color: black;
+}
+
+
+
+
+#intro {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        background-color: #b93a6f;
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    #nav-title {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .contenedor {
+        grid-template-columns: 1fr 1fr;
+        max-width: 90%;
+        padding: 5%;
+        height: auto;
+    }
+
+    .hover {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    #intro {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}

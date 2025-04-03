@@ -1,0 +1,83 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
+
+body {
+   background-image:url(https://c4.wallpaperflare.com/wallpaper/703/286/337/metal-gear-metal-gear-solid-solid-snake-raiden-wallpaper-preview.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#logo{
+    padding: 5%;
+}
+
+#sinopsis{
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#quote{
+    color: black;
+    font-family:fantasy;
+    font-size: larger;
+    padding: 10%;
+}
+
+#analisis{
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    margin-left: 40px;
+}
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    background-color: lightblue;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b93a6f
+    
+}
+

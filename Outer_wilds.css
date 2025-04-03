@@ -1,0 +1,106 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
+#logo {
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+body {
+    background-image: url(https://i.etsystatic.com/6804182/r/il/5d0437/3176669277/il_fullxfull.3176669277_ixuz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+
+.fotos{
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+
+.fotos2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    background-color: lightblue;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b93a6f
+    
+}
+
+#quote{
+    color: white;
+    font-family:fantasy;
+    font-size: larger;
+    padding: 10%;
+}
+
+#sinopsis{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
+
+#analisis{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
+
+
+
+
+
+
